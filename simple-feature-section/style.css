@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --font-outfit: "Outfit", sans-serif;
+    --font-weigth-400: 400;
+    --font-weigth-600: 600;
+    --tx-sizeBase: 1.6rem;
+    --tx-sizeSmall: 2rem;
+    --text-sizeMedium: 4rem;
+
+    --color-titles: #E5E7EB;
+    --color-tx: #9DA3AE;
+    --bg-card: #212936;
+    --bg-body: #121826;
+    --bg-emojiHand: #FBE5E6;
+    --bg-emojiGoal: #FCEED8;
+    --bg-emojiBalloon: #DEE9FC;
+
+    --padding-sidesContainers: 12px;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: var(--tx-sizeBase);
+    font-family: var(--font-outfit);
+    font-weight: var(--font-weigth-400);
+
+    min-height: 100vh;
+    background: var(--bg-body) url('img/Background_image.svg')no-repeat top center;
+    background-size: cover;
+}
+h1, h2{
+    color: var(--color-titles);
+}
+h1{
+    font-size: var(--text-sizeMedium);
+}
+h2{
+    font-size: var(--tx-sizeSmall);
+}
+p{
+    color: var(--color-tx);
+}
+
+.u-textAlign{
+    text-align: center;
+} 
+.u-marginBottom_18{
+    margin-bottom: 18px;
+}
+.u-marginBottom_5{
+    margin-bottom: 5px;
+}
+.Title{
+    max-width: 480px;
+    margin: 0px auto  20px;
+}
+
+.Header{
+    padding: 52px var(--padding-sidesContainers) 0px;
+    margin-bottom: 60px;
+}
+.Group{
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 12px;
+  
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.Card{
+    background-color:var(--bg-card);
+    border-radius: 18px;
+
+    max-width: 325px;
+    min-width: 280px;
+    height: 350px;
+
+    padding: 20px;
+
+    position: relative;
+    transition: .5s;
+}
+.Card.is-hover:hover{
+    height: 360px;
+}
+.Card-emoji{
+    font-size: 2.2rem;
+    background-color: var(--bg-emojiHand);
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+
+    padding: 10px;
+    margin-bottom: 18px;
+
+    transition: .5s
+}
+.Card-emoji--balloon{
+    background-color: var(--bg-emojiBalloon);
+}
+.Card-emoji--goal{
+    background-color: var(--bg-emojiGoal);
+}
+.Card.is-hover:hover .Card-emoji{
+    transform: translate(-20px, -50px);
+}
+.Card-content{
+    position: absolute;
+    width: 85%;
+    height: 50px;
+    overflow: hidden;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%);
+    transition:  .5s;
+}
+.Card.is-hover:hover .Card-content{
+    height: 150px;
+    top: 25px;
+}
+.Card-about{
+    max-width: 90%;
+}
+.Card-boxPhoto{
+    width: 85%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 8px;
+    transition: .2s;
+}
+.Card-photo{
+    border-radius:12px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
