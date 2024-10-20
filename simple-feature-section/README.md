@@ -1,3 +1,21 @@
 # Simple Feature Section
+ 
+<div  align="center">
+  <h2>Desafio da plataforma <a href="https://devchallenges.io/" target="_blank">Dev Challenges</a></h2>
+</div>
 
-![Preview da minha solução](img/preview.png)
+<div align="center">
+  
+  <img src="img/preview.png" width="700px">
+  
+</div>
+
+
+<div align="center">
+  <h3>
+    <a href="https://devchallenges.io/challenge/simple-feature-section-challenge" target="_blank">Detalhes do desafio</a>
+    <span>|</span>
+    <a href="https://kahsr.github.io/devchallenges/simple-feature-section/" target="_blank">Minha solução</a>
+  </h3>
+</div>
+
