@@ -20,7 +20,7 @@
 </div>
 
 ## O que usei?
-- [HTML](simple-feature-section/index.html)
+- [HTML](https://github.com/KahSR/devchallenges/blob/46ad6de41c3978f6627dbf07475b34338c8134a3/simple-feature-section/index.html)
 - CSS
 - Utilizei a nomeclatura SUIT
 
