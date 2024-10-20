@@ -19,3 +19,11 @@
   </h3>
 </div>
 
+## O que usei?
+- HTML
+- CSS
+- Utilizei a nomeclatura SUIT
+
+ ## Adicionei a mais no desafio 
+
+- Algumas animações de hover nos cards
