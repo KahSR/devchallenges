@@ -21,8 +21,8 @@
 
 ## O que usei?
 - [HTML](https://github.com/KahSR/devchallenges/blob/46ad6de41c3978f6627dbf07475b34338c8134a3/simple-feature-section/index.html)
-- CSS
-- Utilizei a nomeclatura SUIT
+- [CSS](https://github.com/KahSR/devchallenges/blob/46ad6de41c3978f6627dbf07475b34338c8134a3/simple-feature-section/style.css)
+- Utilize a nomeclatura SUIT
 
  ## Adicionei a mais no desafio 
 
