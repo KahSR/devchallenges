@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact pages</title>
+</head>
+<body>
+    <div class="limits">
+
+        <header class="Header">
+            <a href="index.html">
+                <img src="resources/Logo.svg" alt="logo becv">
+            </a>
+        </header>
+
+        <main class="Main">
+            
+            <section class="Main-about u-AlignCenter">
+                <h1 class="u-marginBottom12">Interested in our business pricing?</h1>
+
+                <p>
+                    Fill out the form to view details and we’ll contact you as soon as possible.
+                </p>
+            </section>
+
+            <section class="ContainerForm">
+
+                <form action="form.php" method="post">
+                    <div class="Form-input">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+
+                    <div class="Form-input u-marginTop20">
+                        <label for="email">Company Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="Form-input u-marginTop20">
+                        <label for="companySize">Company Size</label>
+                        <input type="number" name="companySize" id="companySize">
+                    </div>
+
+                    <div class="u-marginTop20 u-flex">
+                        <label for="subject">Subject</label>
+
+                        <select name="subject" id="subject">
+                            <option value="ladingPage">Building Landing pages</option>
+                        </select>
+                    </div>
+
+                    <div class="u-marginTop20 u-flex">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <div class="u-marginTop20">
+                        <button type="submit" class="ButtonContact">Contact Sales</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+    </div>
+</body>
+</html>
