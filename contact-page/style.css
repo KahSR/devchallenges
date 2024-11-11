@@ -25,11 +25,10 @@ html{
 }
 body{
     font-family: var(--font-family);
- 
+    font-weight: var(--ft-weight-normal);
     font-size: var(--ft-size-normal);
 
     min-height: 100vh;
-    /*background: url("resources/background2x.png")no-repeat top center;*/
     background: url("resources/background.svg")no-repeat top center;
     background-size: cover;
 }
@@ -69,6 +68,11 @@ select, textarea{
 .u-AlignCenter{
     text-align: center;
 }
+.u-textarea{
+    height: 150px;
+    resize: none;
+}
+
 .limits{
     max-width: 1440px;
     margin: auto;
@@ -95,11 +99,26 @@ select, textarea{
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
 
-    padding: 20px;
+    padding: 20px 25px;
+    max-width: 800px;
+    margin: auto;
 }
-
 .ButtonContact{
     color: var(--cor-tx-button);
     font-weight: var(--ft-weight-800);
     cursor: pointer;
+}
+
+@media screen and (min-width: 1024px){
+    .Form-groupInput{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .Form-input{
+        margin: 0px; /* Zero or select margin too  */
+        width: 48%;
+    }
 }

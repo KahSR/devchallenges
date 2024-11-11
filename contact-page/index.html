@@ -34,32 +34,34 @@
             <section class="ContainerForm">
 
                 <form action="form.php" method="post">
-                    <div class="Form-input">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name">
-                    </div>
+                    <div class="Form-groupInput">
+                        <div class="Form-input">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                        </div>
 
-                    <div class="Form-input u-marginTop20">
-                        <label for="email">Company Email</label>
-                        <input type="email" name="email" id="email">
-                    </div>
+                        <div class="Form-input u-marginTop20">
+                            <label for="email">Company Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
 
-                    <div class="Form-input u-marginTop20">
-                        <label for="companySize">Company Size</label>
-                        <input type="number" name="companySize" id="companySize">
-                    </div>
+                        <div class="Form-input u-marginTop20">
+                            <label for="companySize">Company Size</label>
+                            <input type="number" name="companySize" id="companySize">
+                        </div>
 
-                    <div class="u-marginTop20 u-flex">
-                        <label for="subject">Subject</label>
+                        <div class="u-marginTop20 u-flex Form-input">
+                            <label for="subject">Subject</label>
 
-                        <select name="subject" id="subject">
-                            <option value="ladingPage">Building Landing pages</option>
-                        </select>
+                            <select name="subject" id="subject">
+                                <option value="ladingPage">Building Landing pages</option>
+                            </select>
+                        </div>
                     </div>
 
                     <div class="u-marginTop20 u-flex">
                         <label for="message">Message</label>
-                        <textarea name="message" id="message"></textarea>
+                        <textarea name="message" id="message" class="u-textarea"></textarea>
                     </div>
 
                     <div class="u-marginTop20">
